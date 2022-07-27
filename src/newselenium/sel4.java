@@ -24,7 +24,7 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.xpath("//button[@id=\"timerAlertButton\"]")).click();
 	Thread.sleep(6000);
 	
-	ar.accept();
+	ar.dismiss();
 	
 	Thread.sleep(2000);
 	
